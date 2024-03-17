@@ -2,11 +2,11 @@
 
 namespace WelcomeExtended.Loggers
 {
-	public class LoggerProvider: ILoggerProvider
-	{
-		public LoggerProvider()
-		{
-		}
+    public class LoggerProvider : ILoggerProvider
+    {
+        public LoggerProvider()
+        {
+        }
 
         public ILogger CreateLogger(string categoryName)
         {
