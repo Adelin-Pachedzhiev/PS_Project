@@ -9,12 +9,16 @@ namespace Welcome.Model
 		public string Password { get; set; }
 		public UserRolesEnum Role { get; set; }
 
-		public User(string names, string password, UserRolesEnum userRole)
+		public User(string name, string password, UserRolesEnum userRole)
 		{
-			Name = names;
+			Name = name;
 			Password = password;
-			Role =userRole;
+			Role = userRole;
 		}
-	}
+
+        public User()
+        {
+        }
+    }
 }
 

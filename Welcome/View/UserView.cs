@@ -15,6 +15,11 @@ namespace Welcome.View
 		{
 			Console.WriteLine("Welcome  User: " + _userViewModel.Name + " Role: " + _userViewModel.UserRole);
 		}
-	}
+
+        public void DisplayError()
+        {
+            throw new Exception("Error!!");
+        }
+    }
 }
 
